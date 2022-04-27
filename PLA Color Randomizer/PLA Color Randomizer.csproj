@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>PLA_Color_Randomizer</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FlatSharp" Version="6.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="pkNX.Containers">
+      <HintPath>..\..\pknx\pkNX.Containers\bin\Release\net461\pkNX.Containers.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
